@@ -1,42 +1,31 @@
-body{
-  background-image: url("https://cdn.glitch.com/6c4c63e6-8a11-4f92-8209-0d6e0b4ab36e%2Fsite%20backgroud.png?1553731125787");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: arial;
+#outer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-family: arial;
 }
 
-img.logo{
-  width: 240px;
-  margin-bottom: 60px;
+#nav{
+    background: -moz-linear-gradient(#286ee0, #FFF);
 }
 
-h1.title{
-  font-size: 50px;
+#nav img{
+    width: 15%;
 }
 
-ul.support{
-  font-size: 20px;
+#nav img, h1, li{
+    display: inline-block;
 }
 
-p.bio{
-  font-size: 20px;
+#nav li a{
+    padding: 12px;
+    margin: 5px;
+    background: -moz-linear-gradient(#0b1d3a, #202020);
+    color: white;
+    border-radius: 25px
 }
 
-div.navbar{
-  height: 240px; 
-  float: right;
-}
-
-button.nav{
-  padding: 10px;
-  background: none;
-  font-size: 20px;
-  border: none;
-}
-
-button.nav:hover{  
-  font-size: 25px;
-  background-color: white;
-  opacity: 0.4;
-  border-radius: 10px;
+#about, #donate{
+    font-size: 25px;
 }
