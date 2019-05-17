@@ -29,3 +29,14 @@
 #about, #donate{
     font-size: 25px;
 }
+
+#varios{
+  text-align: center;
+  background-image: url('https://cdn.glitch.com/f50c1a29-1c67-48c7-9ec9-06cae7532fee%2Fsplash.png?1558123411101');
+  background-repeat: no-repeat;
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+  color: white;
+  background-size: contain;
+  background-size: cover;
+}
