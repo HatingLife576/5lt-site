@@ -22,6 +22,17 @@
     display: inline-block;
 }
 
+#simplesoftware{
+  text-align: center;
+  background-image: url('https://cdn.glitch.com/f50c1a29-1c67-48c7-9ec9-06cae7532fee%2FSimpleSoftware%20Site%20BG.png?1558286145224');
+  background-repeat: no-repeat;
+  padding-top: 50vh;
+  padding-bottom: 40vh;
+  color: white;
+  background-size: contain;
+  background-size: cover;
+}
+
 #nav li a{
     padding: 12px;
     margin: 5px;
